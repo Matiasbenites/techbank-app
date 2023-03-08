@@ -2,7 +2,21 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.footer`
-  background-color: #101522;
+  background-image: linear-gradient(
+    to left bottom,
+    #ffffff,
+    #cacbcb,
+    #989999,
+    #686a6b,
+    #3c3e3f,
+    #313c3e,
+    #253a39,
+    #1c3830,
+    #385d43,
+    #65824f,
+    #a0a559,
+    #e9c46a
+  );
 `;
 
 export const FooterWrap = styled.div`
@@ -17,6 +31,12 @@ export const FooterWrap = styled.div`
 
 export const FooterLinksContainer = styled.div`
   display: flex;
+  height: 200;
+  width: 100%;
+  background-color: #ffffff20;
+  backgrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 30px;
   justify-content: center;
 
   @media screen and (max-width: 820px) {
@@ -35,10 +55,10 @@ export const FooterLinksWrapper = styled.div`
 export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin: 16px;
   text-align: left;
-  width: 160px;
+  width: 200px;
   box-sizing: border-box;
   color: #fff;
 
@@ -51,7 +71,7 @@ export const FooterLinkItems = styled.div`
 
 export const FooterLinkTitle = styled.h1`
   color: #e9c46a;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 16px;
 `;
 

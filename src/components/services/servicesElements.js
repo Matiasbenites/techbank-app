@@ -6,8 +6,21 @@ export const ServicesContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #010606;
-
+  background-image: linear-gradient(
+    to left bottom,
+    #ffffff,
+    #cacbcb,
+    #989999,
+    #686a6b,
+    #3c3e3f,
+    #313c3e,
+    #253a39,
+    #1c3830,
+    #385d43,
+    #65824f,
+    #a0a559,
+    #e9c46a
+  );
   @media screen and (max-width: 768px) {
     height: 1100px;
   }
@@ -17,12 +30,16 @@ export const ServicesContainer = styled.div`
 `;
 
 export const ServicesWrapper = styled.div`
+  background-color: #ffffff30;
+  backgrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   max-width: 1000px;
+  height: 55vh;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  grid-gap: 16px;
+  grid-gap: 15px;
   padding: 0 50px;
 
   @media screen and (max-width: 1000px) {

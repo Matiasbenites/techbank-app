@@ -1,16 +1,16 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./pages";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/index";
 import SigninPage from "./pages/signin";
 
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route path="/" component={Home} exact />
-        <Route path="/signin" component={SigninPage} exact />
-      </Switch>
+      <Routes>
+        <Route path="/" exact element={<Home />} />
+        <Route path="/signin" element={<SigninPage />} />
+      </Routes>
     </Router>
   );
 }

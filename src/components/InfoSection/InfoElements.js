@@ -2,8 +2,21 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
   color: #fff;
-  background: ${({ lightBg }) => (lightBg ? "#519259" : "#8E806A")};
-
+  background-image: linear-gradient(
+    to left top,
+    #ffffff,
+    #cacbcb,
+    #989999,
+    #686a6b,
+    #3c3e3f,
+    #313c3e,
+    #253a39,
+    #1c3830,
+    #385d43,
+    #65824f,
+    #a0a559,
+    #e9c46a
+  );
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
@@ -12,7 +25,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  height: 878px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;

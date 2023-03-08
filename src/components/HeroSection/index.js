@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Video from "../../videos/video-1.mp4";
+import background from "../../images/backg.jpg";
 import { Button } from "../ButtonElements";
 import {
   HeroContainer,
   HeroBg,
-  VideoBg,
+  Backg,
   HeroH1,
   HeroP,
   HeroContent,
@@ -22,7 +22,7 @@ const HeroSection = () => {
   return (
     <HeroContainer id="home">
       <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type="video-1/mp4" />
+        <Backg src={background} type="backg/jpg" />
       </HeroBg>
       <HeroContent>
         <HeroH1>Virtual Banking Made Easy</HeroH1>

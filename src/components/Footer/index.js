@@ -65,7 +65,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/" onClick={toggleHome}>
-              TechBank
+              <i class="devicon-circleci-plain"></i> TechBank
             </SocialLogo>
             <WebsiteRights>
               TechBank
@@ -101,7 +101,7 @@ const Footer = () => {
                 </HoverLog>
               </SocialIconLink>
               <SocialIconLink
-                href="//github.com/Matiasbenites"
+                href="https://github.com/Matiasbenites"
                 target="_blank"
                 aria-label="GitHub"
               >

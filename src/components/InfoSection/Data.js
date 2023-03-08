@@ -18,9 +18,9 @@ export const homeObjOne = {
 
 export const homeObjTwo = {
   id: "discover",
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
   topLine: "Unlimited Access",
   headLine: "Login to your account at any time",
   description:
@@ -29,16 +29,16 @@ export const homeObjTwo = {
   imgStart: true,
   img: require("../../images/svg-6.svg").default,
   alt: "LoginPic",
-  dark: false,
-  primary: false,
-  darkText: true,
+  dark: true,
+  primary: true,
+  darkText: false,
 };
 
 export const homeObjThree = {
   id: "signup",
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
   topLine: "Join our Team",
   headLine: "Creating an account is extremely easy",
   description:
@@ -47,7 +47,7 @@ export const homeObjThree = {
   imgStart: false,
   img: require("../../images/svg-5.svg").default,
   alt: "Paper",
-  dark: false,
-  primary: false,
-  darkText: true,
+  dark: true,
+  primary: true,
+  darkText: false,
 };
